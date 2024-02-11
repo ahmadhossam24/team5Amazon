@@ -1,0 +1,276 @@
+/* You can customize your styles here */
+body {
+  background-color: #f8f9fa;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.card {
+  border: none;
+}
+
+.card-title {
+  color: #333;
+}
+
+.card-text {
+  color: #666;
+}
+
+.custom-navbar {
+  background-color: #131921 !important;
+  /* Override Bootstrap styles */
+}
+
+.customnavbar {
+  background-color: #232f3e !important;
+  /* Override Bootstrap styles */
+  font-size: small;
+  font-weight: bolder;
+}
+.customnavbar .nav-link {
+  color: white;
+}
+
+.customise {
+  color: white;
+  direction: rtl;
+  font-weight: bold;
+}
+.customise img {
+  width: 1.5rem;
+}
+.customise:hover {
+  color: white;
+}
+
+.custom2 {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.custom2:hover {
+  color: white;
+}
+
+.style {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 15px;
+  direction: rtl;
+  margin-left: 50px;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  margin: 15px auto 0;
+}
+
+nav form {
+  width: 40%;
+}
+nav form #button-addon2 {
+  background-color: #febd69;
+  border: none;
+}
+nav form #button-addon2 i {
+  color: #131921;
+}
+nav form .dropdown button {
+  background-color: #e6e6e6;
+  border: none;
+  height: 100%;
+  color: #131921;
+  font-size: smaller;
+}
+nav form .dropdown button:hover {
+  color: #131921;
+  background-color: #d4d4d4;
+}
+
+.custom {
+  color: white;
+  text-decoration: none;
+  flex-direction: column;
+  direction: rtl;
+}
+.custom span:nth-child(2) {
+  font-weight: bolder;
+  font-size: small;
+}
+.custom span:nth-child(1) {
+  color: #d4d4d4;
+  font-size: small;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.navbar-collapse > * {
+  margin-left: 18px;
+}
+.navbar-collapse ul li {
+  left: 0;
+}
+.navbar-collapse span:nth-child(2) {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.show {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+@media (min-width: 992px) {
+  .logo {
+    margin: 15px;
+  }
+}
+@media (max-width: 991px) {
+  .nav2 {
+    display: flex !important;
+    justify-content: center;
+  }
+  .nav2 .navbar-nav {
+    margin: auto;
+  }
+  .nav2 ul li {
+    margin: auto;
+  }
+  section .container {
+  }
+  section .container .card-body {
+    margin: 10px;
+  }
+  section .container .col-md-4 {
+    margin: 15px 0;
+  }
+}
+.footer1 {
+  background-color: #232f3e;
+  color: #d4d4d4 !important;
+  direction: rtl;
+}
+.footer1 li a {
+  color: #d4d4d4;
+  text-decoration: none;
+  direction: rtl;
+}
+.footer1 .row {
+  direction: rtl;
+}
+.footer1 .mid-footer {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer1 .mid-footer > * {
+  margin: 10px;
+}
+.footer1 .mid-footer .dropdown {
+  border: 1px solid #d4d4d4;
+  border-radius: 5px;
+}
+.footer1 .mid-footer button {
+  color: #d4d4d4;
+  font-size: small;
+  margin-top: 0;
+}
+
+.leg {
+  text-align: right !important;
+}
+
+.list-unstyled {
+  padding: 0;
+}
+
+.footer2 {
+  background-color: #131921;
+}
+.footer2 a {
+  color: rgba(212, 212, 212, 0.5098039216);
+  text-decoration: none;
+  font-size: 12px;
+}
+.footer2 a p:nth-child(1) {
+  color: #d4d4d4;
+  font-weight: bold;
+  margin: 0;
+}
+
+.end-footer {
+  color: #d4d4d4;
+  direction: rtl;
+  font-size: small;
+}
+.end-footer a {
+  border: none;
+  font-size: smaller;
+  color: #d4d4d4;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.end-footer a:hover {
+  color: #d4d4d4;
+}
+
+section {
+  direction: rtl;
+  margin-bottom: 10%;
+}
+section .alert {
+  border: 2px solid #ffaf38;
+  direction: rtl;
+  border-right-width: 12px;
+  margin-top: 12px;
+}
+section .alert .fa-exclamation-triangle {
+  font-size: 17px;
+}
+section h3 {
+  direction: rtl;
+}
+section .hr1 {
+  background-color: transparent;
+  border-top: 3px solid #222222;
+  display: block;
+  line-height: 19px;
+  margin: 30px 0;
+}
+section .container:nth-child(2) .card {
+  border: 1px solid #d4d4d4;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  font-size: small;
+}
+section .container:nth-child(2) .card .card-body {
+  margin-right: 20%;
+}
+section .container:nth-child(2) .card:hover {
+  background-color: rgba(212, 212, 212, 0.5098039216);
+}
+section .container:nth-child(2) img {
+  position: absolute;
+  width: 20%;
+}
+
+/*# sourceMappingURL=custom.css.map */
