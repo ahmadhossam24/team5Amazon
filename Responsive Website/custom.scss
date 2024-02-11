@@ -1,0 +1,343 @@
+/* You can customize your styles here */
+$yellow : #febd69;
+$blue: #232f3e;
+$Darkblue : #131921;
+$lightgrey: #d4d4d4;
+$Darkgrey:#d4d4d482;
+
+body {
+    background-color: #f8f9fa;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.card {
+    border: none;
+}
+
+.card-title {
+    color: #333;
+}
+
+.card-text {
+    color: #666;
+}
+
+.custom-navbar {
+    background-color: $Darkblue !important;
+    /* Override Bootstrap styles */
+}
+
+.customnavbar {
+    background-color: $blue !important;
+    /* Override Bootstrap styles */
+    font-size: small;
+    font-weight: bolder;
+
+    .nav-link {
+        color: white;
+    }
+}
+
+.customise {
+    color: white;
+    direction: rtl;
+    font-weight: bold;
+
+    img {
+        width: 1.5rem;
+    }
+
+    &:hover {
+        color: white;
+    }
+}
+
+.custom2 {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    &:hover {
+        color: white;
+    }
+}
+
+.style {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 15px;
+    direction: rtl;
+    margin-left: 50px;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    margin: 15px auto 0;
+}
+
+//search bar
+nav {
+    form {
+        width: 40%;
+
+        #button-addon2 {
+            background-color: #febd69;
+            border: none;
+
+            i {
+                color: $Darkblue;
+            }
+        }
+
+        .dropdown button {
+            background-color: #e6e6e6;
+            border: none;
+            height: 100%;
+            color: $Darkblue;
+            font-size: smaller;
+
+            &:hover {
+                color: $Darkblue;
+                background-color: $lightgrey;
+            }
+        }
+    }
+}
+
+// Nav
+.custom {
+    color: white;
+    text-decoration: none;
+    flex-direction: column;
+    direction: rtl;
+
+    span:nth-child(2) {
+        font-weight: bolder;
+        font-size: small;
+    }
+
+    span:nth-child(1) {
+        color: $lightgrey;
+        font-size: small;
+
+    }
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+
+    &>* {
+        margin-left: 18px;
+    }
+
+    ul {
+        li {
+            left: 0;
+        }
+    }
+
+    span:nth-child(2) {
+        color: white;
+        text-decoration: none;
+        margin-right: 20px;
+        font-weight: bold;
+    }
+}
+
+
+.show {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+
+@media (min-width: 992px) {
+    .logo {
+        margin: 15px;
+    }
+}
+
+@media (max-width: 991px) {
+    .nav2 {
+        display: flex !important;
+        justify-content: center;
+
+        .navbar-nav {
+            margin: auto;
+        }
+
+        ul {
+            li {
+                margin: auto;
+            }
+        }
+    }
+
+
+    section {
+        .container {
+            margin: 0;
+
+            .card-body {
+                margin: 10px;
+            }
+
+            .col-md-4 {
+                margin: 15px 0
+            }
+        }
+
+    }
+
+}
+
+// Footer
+.footer1 {
+    background-color: $blue;
+    color: $lightgrey !important;
+    direction: rtl;
+
+    li {
+        a {
+            color: $lightgrey;
+            text-decoration: none;
+            direction: rtl;
+        }
+    }
+
+    .row {
+        direction: rtl;
+    }
+
+    .mid-footer {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        &>* {
+            margin: 10px;
+        }
+
+        .dropdown {
+            border: 1px solid $lightgrey;
+            border-radius: 5px;
+        }
+
+        button {
+            color: $lightgrey;
+            font-size: small;
+            margin-top: 0;
+        }
+    }
+}
+
+.leg {
+    text-align: right !important;
+}
+
+.list-unstyled {
+    padding: 0;
+}
+
+.footer2 {
+    background-color: $Darkblue;
+
+    a {
+        color: $Darkgrey;
+        text-decoration: none;
+        font-size: 12px;
+
+        p:nth-child(1) {
+            color: $lightgrey;
+            font-weight: bold;
+            margin: 0;
+        }
+    }
+
+}
+
+.end-footer {
+    color: $lightgrey;
+    direction: rtl;
+    font-size: small;
+
+    a {
+        border: none;
+        font-size: smaller;
+        color: $lightgrey;
+        text-decoration: none;
+        margin-left: 10px;
+
+        &:hover {
+            color: $lightgrey;
+        }
+    }
+
+}
+
+// Section
+section {
+    direction: rtl;
+    margin-bottom: 10%;
+
+    .alert {
+        border: 2px solid #FFAF38;
+        direction: rtl;
+        border-right-width: 12px;
+        margin-top: 12px;
+
+        .fa-exclamation-triangle {
+            font-size: 17px;
+        }
+    }
+
+    h3 {
+        direction: rtl;
+    }
+
+    .hr1 {
+        background-color: transparent;
+        border-top: 3px solid #222222;
+        display: block;
+        line-height: 19px;
+        margin: 30px 0;
+    }
+
+    .container:nth-child(2) {
+        .card {
+            border: 1px solid $lightgrey;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            height: 100%;
+            font-size: small;
+
+            .card-body {
+                margin-right: 20%;
+            }
+
+            &:hover {
+                background-color: $Darkgrey;
+            }
+        }
+
+        img {
+            position: absolute;
+            width: 20%;
+        }
+    }
+}
