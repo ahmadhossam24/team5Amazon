@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.2/css/bootstrap.min.css"
+      integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Amazone</title>
+  </head>
+  <body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg header" id="home">
+      <div class="container-fluid header">
+        <!-- Right -->
+        <div class="right-head col-2">
+          <a class="navbar-brand" href="#"
+            ><img src="./imgs/logo.png" alt=""
+          /></a>
+          <span class="loaction"
+            ><i class="fa-solid fa-location-dot"></i>Egypt</span
+          >
+        </div>
+
+        <!-- Meduim -->
+        <div class="med-head col-6">
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search Amazon.eg"
+              aria-label="Search"
+              style="font-weight: 500"
+            />
+            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+          </form>
+        </div>
+
+        <!-- Left -->
+        <div class="left-head col-2">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            style="background-color: #cd9042"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./login.html">SignIn</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Orders</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Prime</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="fa-solid fa-cart-shopping"></i
+                  ><span style="color: #cd9042; margin-left: 5px">0</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- header -->
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg nav">
+      <div class="container-fluid">
+        <!-- Right -->
+        <div class="left-nav col-8">
+          <a href="#" style="font-size: 17px; font-weight: bold"
+            ><i class="fa-solid fa-bars" style="margin-right: 5px"></i>All</a
+          >
+          <a href="#">Today's Deals</a>
+          <a href="#">Mobile Phones</a>
+          <a href="#">Prime</a>
+          <a href="#">Electronic</a>
+          <a href="#">Application</a>
+          <a href="#">Fashion</a>
+          <a href="#">Home</a>
+          <a href="#">Grocery</a>
+          <a href="#">Video</a>
+          <a href="#">Toys & Games</a>
+        </div>
+
+        <!-- Left -->
+        <div class="right-nav col-3">
+          <a href="#"
+            ><i class="fa-solid fa-rocket"></i>Start Selling on Amazone Today
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- products -->
+    <div class="container products">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="./imgs/product1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">
+                Samsung Galaxy A54 - Dual SIM Mobile Phone Android, 8GB RAM,
+                128GB, 5G, Awesome Lime
+              </h6>
+              <div class="rate">
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <span class="sell">104</span>
+              </div>
+              <p class="card-text bought">400+ bought in past month</p>
+              <p class="card-text salary">18,380</p>
+              <p class="card-text primary">
+                <i class="fa-solid fa-check"></i
+                ><span class="prime">Prime</span>
+                <span class="para-prime"
+                  >Get it as soon as
+                  <span class="prime-bold">tomorrow, 8 Feb</span> Fulfilled by
+                  Amazon - FREE Shipping</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./imgs/product2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">
+                Samsung Galaxy A05s, Android Smartphone, Dual SIM Mobile Phone,
+                LTE, 6GB RAM, 128GB Storage, Black
+              </h6>
+              <div class="rate">
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <span class="sell">3</span>
+              </div>
+              <p class="card-text bought">100+ bought in past month</p>
+              <p class="card-text salary">7,999</p>
+              <p class="card-text primary">
+                <i class="fa-solid fa-check"></i
+                ><span class="prime">Prime</span>
+                <span class="para-prime"
+                  >Get it as soon as
+                  <span class="prime-bold">tomorrow, 8 Feb</span> Fulfilled by
+                  Amazon - FREE Shipping</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./imgs/product3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">
+                Samsung Galaxy A05s, Android Smartphone, Dual SIM Mobile Phone,
+                LTE, 4GB RAM, 128GB Storage, Black
+              </h6>
+              <div class="rate">
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <span class="sell">4</span>
+              </div>
+              <p class="card-text bought">50+ bought in past month</p>
+              <p class="card-text salary">6,999</p>
+              <p class="card-text primary">
+                <i class="fa-solid fa-check"></i
+                ><span class="prime">Prime</span>
+                <span class="para-prime"
+                  >Get it as soon as
+                  <span class="prime-bold">tomorrow, 8 Feb</span> Fulfilled by
+                  Amazon - FREE Shipping</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./imgs/product4.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">
+                Samsung Galaxy M34, Dual SIM, 6GB RAM, 128GB Storage, 5G, Dark
+                Blue - 1 year Warranty
+              </h6>
+              <div class="rate">
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <span class="sell">19</span>
+              </div>
+              <p class="card-text bought">200+ bought in past month</p>
+              <p class="card-text salary">12,999</p>
+              <p class="card-text primary">
+                <i class="fa-solid fa-check"></i
+                ><span class="prime">Prime</span>
+                <span class="para-prime"
+                  >Get it as soon as
+                  <span class="prime-bold">tomorrow, 8 Feb</span> Fulfilled by
+                  Amazon - FREE Shipping</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./imgs/product5.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">
+                Samsung Galaxy A54 Dual SIM 8GB Ram+128GB ROM (6.23 Inches) (5G)
+                - (Awesome Graphite)
+              </h6>
+              <div class="rate">
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <span class="sell">161</span>
+              </div>
+              <p class="card-text bought">400+ bought in past month</p>
+              <p class="card-text salary">16,999</p>
+              <p class="card-text primary">
+                <i class="fa-solid fa-check"></i
+                ><span class="prime">Prime</span>
+                <span class="para-prime"
+                  >Get it as soon as
+                  <span class="prime-bold">tomorrow, 8 Feb</span> Fulfilled by
+                  Amazon - FREE Shipping</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./imgs/product6.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h6 class="card-title">
+                Redmi 13C Dual SIM 6GB Ram+128GB ROM (6.74 Inches) (4G) -
+                (Midnight Black)
+              </h6>
+              <div class="rate">
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <span class="sell">99</span>
+              </div>
+              <p class="card-text bought">400+ bought in past month</p>
+              <p class="card-text salary">8,175</p>
+              <p class="card-text primary">
+                <i class="fa-solid fa-check"></i
+                ><span class="prime">Prime</span>
+                <span class="para-prime"
+                  >Get it as soon as
+                  <span class="prime-bold">tomorrow, 8 Feb</span> Fulfilled by
+                  Amazon - FREE Shipping</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- products -->
+
+    <div class="to-up text-center"><a href="#home">Back to top</a></div>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start footer">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row foot-row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-2 mb-md-0 col">
+            <h6>Get to Know Us</h6>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!">About Amazon</a>
+              </li>
+              <li>
+                <a href="#!">Careers</a>
+              </li>
+              <li>
+                <a href="#!">Amazon Science</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-2 mb-md-0 col">
+            <h6 class="mb-0">Shop With Us</h6>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Your Account</a>
+              </li>
+              <li>
+                <a href="#!">Your Orders</a>
+              </li>
+              <li>
+                <a href="#!">Your Address</a>
+              </li>
+              <li>
+                <a href="#!">Your List</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-2 mb-md-0 col">
+            <h6>Make Money with Us</h6>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!">Protect and build your brand</a>
+              </li>
+              <li>
+                <a href="#!">Advertise Your Products</a>
+              </li>
+              <li>
+                <a href="#!">Sell on Amazon</a>
+              </li>
+              <li>
+                <a href="#!">Sell on Amazon</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-2 mb-md-0 col">
+            <h6 class="mb-0">Let Us Help You</h6>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Help</a>
+              </li>
+              <li>
+                <a href="#!">Shipping & Delivery</a>
+              </li>
+              <li>
+                <a href="#!">Returns & Replacements</a>
+              </li>
+              <li>
+                <a href="#!">Amazon App Download</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+
+      <div class="footer-line"></div>
+
+      <div class="text-center">
+        <span class="footer-img"><img src="./imgs/logo.png" alt="" /></span>
+        <span class="langauge"><i class="fa-solid fa-globe"></i>English</span>
+        <span class="country"><img src="./imgs/egypt.png" alt="" />Egypt</span>
+      </div>
+    </footer>
+    <!-- Footer -->
+
+    <!-- CopyRight -->
+    <div class="copy-right">
+      <div class="container">
+        <div class="row m-4 row-top">
+          <div class="col-2 link">
+            <h6><a href="#"> Amazon Advertising</a></h6>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!">Find, attract, and </a>
+              </li>
+              <li>
+                <a href="#!">engage customers</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-2 link">
+            <h6><a href="#">Sell on Amazon.ae</a></h6>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!">Sell globally, start with UAE </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-3 link">
+            <h6><a href="">Sell on Amazon.sa</a></h6>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!">Sell globally, start with Saudi Arabia </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-2 link">
+            <h6><a href="">Amazon Web Services</a></h6>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!">Scalable Cloud</a>
+              </li>
+              <li>
+                <a href="#!">Computing Services</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-2 link">
+            <h6><a href=""> Goodreads</a></h6>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!">Book reviews</a>
+              </li>
+              <li>
+                <a href="#!">& recommendations</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row m-4">
+          <div class="col-2 link">
+            <h6><a href="">Audible</a></h6>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!">Download</a>
+              </li>
+              <li>
+                <a href="#!">Audio Books</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-2 link">
+            <h6><a href="">IMDb</a></h6>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!">Movies, TV</a>
+              </li>
+              <li>
+                <a href="#!">& Celebrities</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-3 link">
+            <h6><a href="">Alexa</a></h6>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!">Actionable Analytics</a>
+              </li>
+              <li>
+                <a href="#!">for the Web</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-2 link">
+            <h6><a href="">Shopbop</a></h6>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!">Designer</a>
+              </li>
+              <li>
+                <a href="#!">Fashion Brands</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="text-center para-copy">
+        <p>
+          <a href="#">Conditions of Use & Sale</a>
+          <span><a href="#">Privacy Notice</a></span>
+          <a href="#">Interest-Based Ads</a>
+        </p>
+        <div class="text">©1996–2024, Amazon.com, Inc. or its affiliates</div>
+      </div>
+    </div>
+    <!-- CopyRight -->
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
